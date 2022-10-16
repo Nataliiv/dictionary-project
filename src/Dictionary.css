@@ -1,0 +1,15 @@
+.Dictionary {
+	box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 8px;
+  background: white;
+  padding: 60px;
+}
+
+.Dictionary .search-input {
+  height: 48px;
+  font-size: 18px;
+  padding: 18px;
+  width: 100%;
+	background: rgb(249, 247, 247, 0.3);
+  border-radius: 24px;
+}

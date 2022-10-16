@@ -10,10 +10,17 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Nataliia Ivanchak</small>
+          <small>
+            Coded by Nataliia Ivanchak and is{" "}
+            <a href="https://github.com/Nataliiv/dictionary-project">
+              open-sourced on GitHub
+            </a>{" "}
+            and <a href="https://graceful-rabanadas-d525e1.netlify.app/">
+              hosted on Netlify
+            </a>
+          </small>
         </footer>
       </div>
-      
     </div>
   );
 }
