@@ -8,7 +8,22 @@
   margin: 40px;
   text-align: center;
   font-family: 'Kaushan Script', cursive;
-  font-size: 46px;
+  font-size: 72px;
+  color: #1b335f; 
+  position: relative;
+  animation: mymove 5s ease-in;
+}
+
+@keyframes mymove {
+  0%   {color:#ffb0fe;  left:0px;}
+  25%  {color:#ff6bd6;   left:100px; transform: rotateX(150deg);}
+  50% {color:  #1b335f; left: -100px;}
+  100%   {color:#ffb0fe;  left:0px;}
+}
+
+.partOfSpeech {
+  font-family: 'Kaushan Script', cursive;
+  color: #1b335f; 
 }
 
 .App-footer {

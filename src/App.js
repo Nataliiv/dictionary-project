@@ -11,11 +11,16 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <small>
-            Coded by Nataliia Ivanchak and is{" "}
+            Coded by{" "}
+            <a href="https://jazzy-melba-46dc0a.netlify.app/">
+              Nataliia Ivanchak
+            </a>{" "}
+            and is{" "}
             <a href="https://github.com/Nataliiv/dictionary-project">
               open-sourced on GitHub
             </a>{" "}
-            and <a href="https://graceful-rabanadas-d525e1.netlify.app/">
+            and{" "}
+            <a href="https://graceful-rabanadas-d525e1.netlify.app/">
               hosted on Netlify
             </a>
           </small>

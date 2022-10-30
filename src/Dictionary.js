@@ -55,7 +55,7 @@ export default function Dictionary(props) {
             <input
               type="search"
               onChange={handleSearch}
-              class="form-control search-input"
+              className="form-control search-input"
               placeholder="search for any word"
             />
           </form>
